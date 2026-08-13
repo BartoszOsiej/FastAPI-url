@@ -35,7 +35,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/voicenotesite/FastAPI-url.git
+git clone https://github.com/bartoszosiej/FastAPI-url.git
 cd FastAPI-url
 python3 -m venv venv
 source venv/bin/activate
@@ -87,4 +87,4 @@ MIT
 
 ## 🌐 Ecosystem
 
-This project is part of the [Bartosz Web Portfolio](https://voicenotesite.github.io/WebBartosz/) ecosystem.
+This project is part of the [Bartosz Web Portfolio](https://bartoszosiej.github.io/WebBartosz/) ecosystem.
