@@ -10,11 +10,17 @@
 
 ## Whole project
 
-**✅ 3/3 API tests pass · 0 failed (6.17 s)** — `tests/test_api.py`
-(`test_health`, `test_register_login`, `test_shorten`):
+**✅ 11/11 API tests pass · 0 failed (23 s)** — `tests/test_api.py`:
 - `GET /health` → 200
-- `POST /auth/register` → 200 + JWT `access_token`; login flow
-- `POST /urls/shorten` + `GET /urls/{code}/stats` + redirect `302`
+- `POST /auth/register` → 200 + JWT; login flow; wrong password → 401
+- `GET /auth/me` with token → 200; without token → 401/403
+- Duplicate email register → 400
+- `POST /urls/shorten` requires auth; `GET /urls/{code}/stats`; redirect `302`
+- `GET /urls/my` lists only the caller's links (isolation verified)
+- Redirect increments click counter (3 hits → `clicks == 3`, `total == 3`)
+- Unknown code stats → 404
+- `DELETE /urls/{code}` → 204; redirect after delete → 404
+- Delete enforces ownership (other user → 404)
 
 ## Modules
 
