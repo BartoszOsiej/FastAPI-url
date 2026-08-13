@@ -10,7 +10,7 @@
 
 ## Whole project
 
-**✅ 11/11 API tests pass · 0 failed (23 s)** — `tests/test_api.py`:
+**✅ 15/15 API tests pass · 0 failed (31 s)** — `tests/test_api.py`:
 - `GET /health` → 200
 - `POST /auth/register` → 200 + JWT; login flow; wrong password → 401
 - `GET /auth/me` with token → 200; without token → 401/403
