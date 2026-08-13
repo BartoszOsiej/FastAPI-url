@@ -123,3 +123,25 @@ def test_delete_enforces_ownership():
 
     r = client.delete(f"/urls/{code}", headers=_auth(alice))
     assert r.status_code == 204
+
+def test_login_unknown_email_rejected():
+    r = client.post("/auth/login", json={"email": "ghost@x.pl", "password": "test123"})
+    assert r.status_code == 401
+
+def test_delete_unknown_code_404():
+    token = _register("del404@x.pl")
+    r = client.delete("/urls/zzzzzz", headers=_auth(token))
+    assert r.status_code == 404
+
+def test_redirect_unknown_code_404():
+    r = client.get("/urls/r/zzzzzz", follow_redirects=False)
+    assert r.status_code == 404
+
+def test_inactive_link_still_resolves():
+    # Links are created active; nothing in this API deactivates them, but
+    # the redirect query filters on is_active — an active link must resolve.
+    token = _register("active@x.pl")
+    code = _shorten(token, "https://active.example")
+    r = client.get(f"/urls/r/{code}", follow_redirects=False)
+    assert r.status_code in (302, 307)
+    assert r.headers.get("location") == "https://active.example"
