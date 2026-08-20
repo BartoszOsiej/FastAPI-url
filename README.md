@@ -138,12 +138,4 @@ docker run -p 8000:8000 ghcr.io/bartoszosiej/fastapi-url:latest
 
 ## License
 
----
-
----
-
-## 🌐 Ecosystem
-
-This project is part of the [Bartosz Web Portfolio](https://bartoszosiej.github.io/Portfolio/) ecosystem.
-
-> 🤖 Generated with [Codebuff](https://codebuff.com) · [Portfolio](https://bartoszosiej.github.io/Portfolio/)
+MIT
