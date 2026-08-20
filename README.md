@@ -1,5 +1,8 @@
 # LinkShort — URL Shortener
 
+[![CI](https://github.com/BartoszOsiej/FastAPI-url/actions/workflows/ci.yml/badge.svg)](https://github.com/BartoszOsiej/FastAPI-url/actions/workflows/ci.yml)
+[![ghcr](https://img.shields.io/badge/image-ghcr.io-2496ED?logo=docker)](https://github.com/BartoszOsiej/FastAPI-url/pkgs/container/fastapi-url)
+
 ![Python](https://img.shields.io/badge/python-3.12+-3776AB?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)
