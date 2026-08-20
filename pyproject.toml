@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-url"
+version = "0.2.0"
+description = "URL shortener — FastAPI + SQLite + Docker, CLI-launchable app"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+
+[project.scripts]
+fastapi-url = "app.main:run"
+
+[tool.setuptools]
+packages = ["app"]
