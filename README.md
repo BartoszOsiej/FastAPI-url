@@ -1,5 +1,8 @@
 <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,50:009688,100:61dafb&height=140&section=header&text=LinkShort&fontSize=38&fontColor=fff&desc=URL%20shortener%20%C2%B7%20JWT%20auth%20%C2%B7%20click%20tracking%20%C2%B7%20React%20dashboard&descSize=15&descAlignY=72" width="100%" />
 
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/BartoszOsiej/FastAPI-url/badge)](https://scorecard.dev/viewer/?uri=github.com/BartoszOsiej/FastAPI-url)
+
 <div align="center">
 
 [![PyPI](https://img.shields.io/pypi/v/fastapi-url?style=for-the-badge&logo=pypi)](https://pypi.org/project/fastapi-url/)
