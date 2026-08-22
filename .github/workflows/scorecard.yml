@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: '25 7 * * 1'
   push:
-    branches: [main]
+    branches: [main, master]
 
 permissions:
   contents: read
@@ -16,16 +16,18 @@ jobs:
     name: Scorecard analysis
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       security-events: write
+      id-token: write
 
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
 
       - name: "Run OpenSSF Scorecard"
-        uses: ossf/scorecard-action@v2.4.0
+        uses: ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a
         with:
           results_file: results.sarif
           results_format: sarif
