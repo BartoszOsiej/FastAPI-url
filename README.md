@@ -1,4 +1,10 @@
-# 🔗 LinkShort — URL Shortener
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=header&text=FastAPI-url&fontSize=32&animation=fadeIn" width="100%" />
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=URL%20shortener%20%E2%80%94%20JWT%20auth%2C%20click%20tracking%2C%20React%20dashboard%2C%20FastAPI%2C%20Docker)](https://github.com/BartoszOsiej/FastAPI-url)
+
+</div># 🔗 LinkShort — URL Shortener
 
 ![Python](https://img.shields.io/badge/python-3.12+-3776AB?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi)
