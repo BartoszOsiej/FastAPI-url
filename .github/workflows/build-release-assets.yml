@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with:
           python-version: "3.12"
       - run: pip install build
@@ -19,7 +19,7 @@ jobs:
 
       - name: Generate build provenance (SLSA v1 attestation)
         id: attest
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@92c65d2898f1f53cfdc910b962cecff86e7f8fcc
         with:
           subject-path: |
             dist/*.whl
@@ -49,7 +49,7 @@ jobs:
               cosign sign-blob --yes --output-signature "$f.sig" --output-certificate "$f.cert" "$f"
             fi
           done
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65
         with:
           files: |
             dist/*.whl
