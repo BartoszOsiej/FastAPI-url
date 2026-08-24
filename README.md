@@ -24,6 +24,7 @@
 
 ## Table of Contents
 
+- [Demo](#-demo)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
@@ -35,6 +36,18 @@
 - [License](#license)
 
 ---
+
+## 📺 Demo
+
+
+
+<!-- VHS auto-rendered — run: vhs demos/fastapi-url.tape -->
+
+
+
+![FastAPI URL Demo](assets/fastapi-url-demo.gif)
+
+
 
 ## Features
 
