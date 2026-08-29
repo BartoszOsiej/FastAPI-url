@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=header&text=FastAPI-url&fontSize=32&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=header&text=Shortlink&fontSize=32&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=URL%20shortener%20%E2%80%94%20JWT%20auth%2C%20click%20tracking%2C%20React%20dashboard%2C%20FastAPI%2C%20Docker)](https://github.com/BartoszOsiej/FastAPI-url)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=URL%20shortener%20%E2%80%94%20JWT%20auth%2C%20click%20tracking%2C%20React%20dashboard%2C%20FastAPI%2C%20Docker)](https://github.com/BartoszOsiej/Shortlink)
 
 </div># 🔗 LinkShort — URL Shortener
 
