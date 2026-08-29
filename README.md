@@ -14,7 +14,7 @@
 ![Docker](https://img.shields.io/badge/Docker-GHCR-2496ED?style=flat-square&logo=docker)
 ![Tests](https://img.shields.io/badge/Tests-15%20✓-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/BartoszOsiej/FastAPI-url/badge)](https://scorecard.dev/viewer/?uri=github.com/BartoszOsiej/FastAPI-url)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/BartoszOsiej/Shortlink/badge)](https://scorecard.dev/viewer/?uri=github.com/BartoszOsiej/Shortlink)
 
 **URL shortener with JWT auth, click tracking, and dark UI. Full REST API + React SPA.**
 
@@ -85,7 +85,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/BartoszOsiej/FastAPI-url.git
+git clone https://github.com/BartoszOsiej/Shortlink.git
 cd FastAPI-url
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
